@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  backend-app:
+    build: .
+    volumes:
+      - .:/app
+    image: challenge-app
+    container_name: challenge-app
